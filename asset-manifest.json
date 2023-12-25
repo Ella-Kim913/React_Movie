@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/https//Ella-Kim913.github.io/React_Movie/static/css/main.a1e2d882.css",
-    "main.js": "/https//Ella-Kim913.github.io/React_Movie/static/js/main.5fc17b82.js",
-    "index.html": "/https//Ella-Kim913.github.io/React_Movie/index.html",
-    "main.a1e2d882.css.map": "/https//Ella-Kim913.github.io/React_Movie/static/css/main.a1e2d882.css.map",
-    "main.5fc17b82.js.map": "/https//Ella-Kim913.github.io/React_Movie/static/js/main.5fc17b82.js.map"
+    "main.css": "/React_Movie/static/css/main.a1e2d882.css",
+    "main.js": "/React_Movie/static/js/main.d327d487.js",
+    "index.html": "/React_Movie/index.html",
+    "main.a1e2d882.css.map": "/React_Movie/static/css/main.a1e2d882.css.map",
+    "main.d327d487.js.map": "/React_Movie/static/js/main.d327d487.js.map"
   },
   "entrypoints": [
     "static/css/main.a1e2d882.css",
-    "static/js/main.5fc17b82.js"
+    "static/js/main.d327d487.js"
   ]
 }
