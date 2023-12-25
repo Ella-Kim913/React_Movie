@@ -20,6 +20,15 @@ Experience the live app: [React Movie Live](https://ella-kim913.github.io/React_
 - JSX
 - CSS
 
+## React Features
+- JSX: Used to write HTML-like syntax directly within JavaScript.
+- State: Managed local state in class components for dynamic content.
+- Props: Passed data to components for rendering movie details.
+- Class Components: Utilized for encapsulating behavior and state.
+- Data Fetching: Fetched movie data from the MovieDB API.
+- Routing: Implemented with React Router for seamless navigation between views.
+
+
 ## Preview
 
 <img width="1303" alt="Untitled 6" src="https://github.com/Ella-Kim913/React_Converter/assets/132117916/51d59861-9763-4ff0-9d97-a73b6d0f34d5">
