@@ -1,0 +1,102 @@
+h1 {
+    color: #333;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 2.8em;
+    /* Adjust as needed */
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    /* Spacing below the title */
+
+}
+
+.movie {
+    background-color: white;
+    margin-bottom: 70px;
+    font-weight: 300;
+    padding: 20px;
+    border-radius: 5px;
+    color: #adaeb9;
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) 2fr;
+    grid-gap: 20px;
+    text-decoration: none;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.movie__img_link {
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.movie__img_link:hover .movie__img {
+    transform: scale(1.05);
+}
+
+.movie__img {
+    position: relative;
+    max-width: 150px;
+    width: 100%;
+    margin-right: 30px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+        0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    border-radius: 5px;
+    /* Optional: adds rounded corners to the image */
+    transition: transform 0.3s ease;
+    /* Smooth transition for scaling */
+}
+
+/* Rest of the styles remain unchanged */
+
+
+
+.movie__title,
+.movie__year {
+    margin: 0;
+    font-weight: 400;
+    /* Adjusted for better readability */
+}
+
+.movie__title a {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.movie__genres {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+}
+
+.movie__genres li {
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 2px 4px;
+    /* Added padding for genre tags */
+}
+
+.movie__year {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .movie {
+        grid-template-columns: 1fr;
+        /* Stack elements on smaller screens */
+    }
+
+    .movie__img {
+        top: 0;
+        /* Adjust image position for smaller screens */
+    }
+}
